@@ -6,6 +6,7 @@ public class Demo015 {
         int x = sc.nextInt();
         System.out.println("Enter second number: ");
         int y = sc.nextInt();
+        sc.close();
         int temp;
         temp = x;
         x = y;
