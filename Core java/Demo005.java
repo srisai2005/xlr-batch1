@@ -1,4 +1,4 @@
-public class D5 {
+public class Demo005 {
     public static void main(String[] args) {
         String username ="srisai25";
         String pass ="12345";
