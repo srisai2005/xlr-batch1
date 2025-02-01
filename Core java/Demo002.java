@@ -1,16 +1,16 @@
-import java.util.Scanner;
-
-public class Demo002 {
+public class Demo002{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter height: ");
-        double h = sc.nextDouble();
-        System.out.println("Enter base: ");
-        double b = sc.nextDouble();
-        sc.close();
-        double area = 0.5*h*b; 
-        System.out.println("Area of triangle is : "+area);
-
+        int a = 20;
+        int b = 20;
+        if(a<b){
+            System.out.println(b + "is greater than" + a);
+        }
+        else if(a>b){
+            System.out.println(a + "is greater than" + b);
+        }
+        else{
+            System.out.println(a + "is equal to"
+             + b);
+        }
     }
-    
 }
