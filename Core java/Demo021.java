@@ -34,6 +34,6 @@ public class Demo021 {
 
     public static void main(String[] args) {
         Demo021 employee = new Demo021(1200000, 200000, 50000);
-        System.out.println("Annual Income Tax: " + employee.calculateTax());
+        System.out.println("Annual Income Tax : " + employee.calculateTax());
     }
 }
