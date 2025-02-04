@@ -8,7 +8,7 @@ class PalindromeOf3 {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             PalindromeOf3 obj = new PalindromeOf3();
-            System.out.println("Enter 3 digit number: ");
+            System.out.println("Enter 3 digit number : ");
             int n = sc.nextInt();
             sc.close();	
             System.out.println(obj.isPalindromeOf3Digits(n));
