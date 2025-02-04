@@ -6,7 +6,7 @@ public class Demo018 {
         int minutes = sc.nextInt();
         sc.close();
         int years = minutes / 525600;
-        System.out.println("Years:" + years);
+        System.out.println("Years: " + years);
 
     }
     
