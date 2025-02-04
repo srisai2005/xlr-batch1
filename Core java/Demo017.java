@@ -12,6 +12,6 @@ public class Demo017 {
         SumOf2Digits obj = new SumOf2Digits();
 		int n = 121;
 		int sum = obj.getSumOf2Digits(n);
-		System.out.println("The sum of 2 digits is : "+sum);
+		System.out.println("The sum of 2 digits is : " +sum);
 	}
 }
