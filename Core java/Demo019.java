@@ -32,7 +32,7 @@ public class Demo019 {
 
         int n2 = 7;
         int[] result2 = getFibonacciSeries(n2);
-        System.out.print("Input: " + n2 + " | Output: ");
+        System.out.print("Input : " + n2 + " | Output: ");
         for (int num : result2) {
             System.out.print(num + " ");
         }
