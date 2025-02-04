@@ -16,7 +16,7 @@ import java.util.Scanner;
                 public static void main(String[] args) {
                     FizzBizz fbobj = new FizzBizz();
                     Scanner sc = new Scanner(System.in);
-                    System.out.println("Enter a number:");
+                    System.out.println("Enter a number: ");
                     int num = sc.nextInt();
                     sc.close();
                     System.out.println(fbobj.getFizzBizz(num));
